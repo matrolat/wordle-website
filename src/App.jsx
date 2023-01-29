@@ -55,8 +55,8 @@ function App() {
 
  
   const handleBlock = (i,a,b,c,d,e)=>{
-      console.log(i+" is blocked ");
-      console.log(a+b+c+d+e);
+      // console.log(i+" is blocked ");
+      // console.log(a+b+c+d+e);
 
     
       if(i===1){
