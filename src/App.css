@@ -73,6 +73,9 @@ input
     max-width: 50px;
     max-height: 50px;
   }
+  input[type=text], select{
+    padding-left:13px ;
+  }
 }
 @media (min-width: 427px) and (max-width: 1023px) {
   .App-header{
@@ -88,6 +91,9 @@ input
     max-width: 50px;
     max-height: 50px;
   }
+  input[type=text], select{
+    padding-left:13px ;
+  }
 }
 @media (min-width: 1024px) and (max-width: 1439px) {
   .row{
@@ -99,5 +105,8 @@ input
   input{
     max-width: 50px;
     max-height: 50px;
+  }
+  input[type=text], select{
+    padding-left:13px ;
   }
 }

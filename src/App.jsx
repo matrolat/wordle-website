@@ -46,7 +46,7 @@ function App() {
 
 
   // ASNWER *********************************************************8
-  const word=['p','l','a','n','t'];
+  const word=['P','L','A','N','T'];
   const answer=word[0] + word[1]+word[2]+word[3]+word[4];
   //COLORS ******************************************************** */
   const successcolor = "lightgreen";
@@ -57,7 +57,11 @@ function App() {
   const handleBlock = (i,a,b,c,d,e)=>{
       // console.log(i+" is blocked ");
       // console.log(a+b+c+d+e);
-
+    a = a.toUpperCase();
+    b = b.toUpperCase();
+    c = c.toUpperCase();
+    d = d.toUpperCase();
+    e = e.toUpperCase();
     
       if(i===1){
         if(a===word[0])setCola1(successcolor);
