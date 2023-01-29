@@ -46,8 +46,8 @@ function App() {
 
 
   // ASNWER *********************************************************8
-  const word=['l','e','m','o','n'];
-
+  const word=['p','l','a','n','t'];
+  const answer=word[0] + word[1]+word[2]+word[3]+word[4];
   //COLORS ******************************************************** */
   const successcolor = "lightgreen";
   const wrongcolor = "gray";
@@ -172,7 +172,7 @@ function App() {
 
 
 
-      if((a+b+c+d+e)==="lemon")
+      if((a+b+c+d+e)===answer)
       {
         setBlock1(true);
         setBlock2(true);
