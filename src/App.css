@@ -41,7 +41,7 @@ input[type=text], select {
   width: 60px;
   height: 60px;
   padding: 12px 0px;
-  padding-left: 21px;
+  padding-left: 18px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -55,4 +55,49 @@ input[type=text], select {
   display: flex;
   width: 25%;
   justify-content: space-around;
+}
+input
+{text-transform:capitalize;}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  .App-header{
+    /* background-color: red; */
+  }
+  .row{
+    display: flex;
+    /* background-color: red; */
+    min-width: 85%;
+    justify-content: space-around;
+  }
+  input{
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+@media (min-width: 427px) and (max-width: 1023px) {
+  .App-header{
+    /* background-color: red; */
+  }
+  .row{
+    display: flex;
+    /* background-color: red; */
+    min-width: 40%;
+    justify-content: space-around;
+  }
+  input{
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .row{
+    display: flex;
+    /* background-color: red; */
+    min-width: 30%;
+    justify-content: space-around;
+  }
+  input{
+    max-width: 50px;
+    max-height: 50px;
+  }
 }

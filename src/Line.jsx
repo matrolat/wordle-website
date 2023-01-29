@@ -46,7 +46,8 @@ export default class line extends Component {
    
 
         if (this.state.captureSpace && (e.key === " " || e.keyCode === 13) && fieldIntIndex===(this.props.l+4)) {
-            // console.log("enter");
+            console.log("enter");
+            console.log(this.state.inp1);
             this.props.handleBlock(this.props.index,this.state.inp1,this.state.inp2,this.state.inp3,this.state.inp4,this.state.inp5);
         }
 
