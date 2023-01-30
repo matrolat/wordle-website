@@ -46,8 +46,8 @@ function App() {
 
 
   // ASNWER *********************************************************8
-  const word=['P','L','A','N','T'];
-  const answer=word[0] + word[1]+word[2]+word[3]+word[4];
+  const answer="PLANT";
+  const word=[answer[0],answer[1],answer[2],answer[3],answer[4]];
   //COLORS ******************************************************** */
   const successcolor = "lightgreen";
   const wrongcolor = "gray";

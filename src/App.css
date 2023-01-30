@@ -48,7 +48,7 @@ input[type=text], select {
   /* border: 1px solid blue; */
   border-radius: 4px;
   font-size: 30px;
-  /* caret-color: transparent; */
+  caret-color: transparent;
   box-sizing: border-box;
 }
 .row{
